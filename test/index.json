@@ -18,16 +18,15 @@
        "finish": {
            "text": "finish.md"
        }
-   },
-   "environment": {
-       "showdashboard": true,
-       "dashboard": "Dashboard",
-       "uilayout": "terminal-iframe",
-       "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
-   },
-   "backend": {
-       "port": 8080,
-       "imageid": "kubernetes-cluster-running"
-   }
- } 
+  },
+  "environment": {
+      "showdashboard": true,
+      "dashboard": "Dashboard",
+      "uilayout": "terminal-iframe",
+      "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+      "port": 8080,
+      "imageid": "kubernetes-cluster-running"
+  }
 }
