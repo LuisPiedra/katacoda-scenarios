@@ -13,7 +13,8 @@
        ],
        "intro": {
            "text": "intro.md",
-           "code": "env-init.sh",
+           "courseData": "init-background.sh",
+           "code": "init-foreground.sh",
            "credits": ""
        },
        "finish": {
@@ -35,6 +36,6 @@
       ]
   },
   "backend": {
-    "imageid": "kubernetes-cluster2-running"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
