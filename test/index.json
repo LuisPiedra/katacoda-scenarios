@@ -14,6 +14,11 @@
                "title": "Create pods with imperative commands",
                "code": "set-env.sh",
                "text": "step2.md"
+           },
+	   {
+               "title": "Create pods with imperative commands",
+               "code": "set-env.sh",
+               "text": "step3.md"
            }
        ],
        "intro": {
@@ -27,7 +32,7 @@
        },
        "assets": {
          "host01": [
-           {"file": "pod.yaml", "target": "./pod.yaml"},
+           {"file": "pod.yaml", "target": "./examples"},
            {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
          ]
        }
