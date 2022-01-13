@@ -19,7 +19,7 @@ Get more details
 `kubectl get pod pod1 -o yaml`{{execute}}
 
 Cleanup
-`kubectl delete pod1 pod2`{{execute}}
+`kubectl delete pod pod1 pod2`{{execute}}
 
 List empty
 `kubectl get pods`{{execute}}

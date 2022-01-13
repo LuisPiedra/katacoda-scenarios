@@ -5,10 +5,10 @@ Create a pod with declarative commands
 
 List pods
 
-`kubectl get pod pod1`{{execute}}
+`kubectl get pod static-web`{{execute}}
 
 Delete pods
-`kubectl delete pod1`{{execute}}
+`kubectl delete pod static-web`{{execute}}
 
 List not empty
-`kubectl get pod pod1`{{execute}}
+`kubectl get pod static-web`{{execute}}
