@@ -9,6 +9,10 @@
                "title": "Kubernetes playground",
                "code": "set-env.sh",
                "text": "step1.md"
+           },
+               "title": "Create pods with imperative commands",
+               "code": "set-env.sh",
+               "text": "step2.md"
            }
        ],
        "intro": {
@@ -21,7 +25,8 @@
            "text": "finish.md"
        },
        "assets": {
-         "host01": [
+         "host01": {
+           {"file": "pod.yaml", "target": "./pod.yaml"},
            {"file": "token.sh", "target": "/usr/local/bin", "chmod": "+x"}
          ]
        }
