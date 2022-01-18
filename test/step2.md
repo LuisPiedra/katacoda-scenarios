@@ -1,25 +1,6 @@
-Create a pod with imperative commands
+Create a deployment
 
-`kubectl run pod1 --image=nginx`{{execute}}
+`kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1`{{execute}}
 
-Create another pod
+`kubectl get deployments`{{execute}}
 
-`kubectl run pod2 --image=nginx`{{execute}}
-
-List pods
-
-`kubectl get pods`{{execute}}
-
-Get pod details
-
-`kubectl get pod pod1`{{execute}}
-
-Get more details
-
-`kubectl get pod pod1 -o yaml`{{execute}}
-
-Cleanup
-`kubectl delete pod pod1 pod2`{{execute}}
-
-List empty
-`kubectl get pods`{{execute}}

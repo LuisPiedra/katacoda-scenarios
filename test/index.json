@@ -11,14 +11,24 @@
                "text": "step1.md"
            },
 	   {
-               "title": "Create pods with imperative commands",
+               "title": "Deploy an app",
                "code": "set-env.sh",
                "text": "step2.md"
            },
 	   {
-               "title": "Create pods with imperative commands",
+               "title": "Expose App",
                "code": "set-env.sh",
                "text": "step3.md"
+           },
+	   {
+               "title": "Scale app",
+               "code": "set-env.sh",
+               "text": "step4.md"
+           },
+	   {
+               "title": "Rollout and rollback",
+               "code": "set-env.sh",
+               "text": "step5.md"
            }
        ],
        "intro": {
