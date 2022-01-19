@@ -1,6 +1,7 @@
 For this scenario, Katacoda has just started a fresh Kubernetes cluster for you. Verify it's ready for your use.
 
 `kubectl version --short`{{execute}}
+
 `kubectl get nodes`{{execute}}
 
 Wait until all the nodes are in Ready status.
