@@ -18,4 +18,4 @@ Find out what port has been exposed:
 
 In this case, as we use NodePort and the workwernode is actually `localhost`, the webapp is accesible at that port.
 
-`curl http://localhost:${NODE_PORT}`{{execute}}
+`curl http://localhost:${NODE_PORT}/echo`{{execute}}

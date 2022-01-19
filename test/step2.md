@@ -1,6 +1,6 @@
 Create a deployment with kubectl command.
 
-`kubectl create deployment webapp --image=gcr.io/google-samples/kubernetes-bootcamp:v1`{{execute}}
+`kubectl create deployment webapp --image=stefanprodan/podinfo:6.0.2`{{execute}}
 
 And the deployment appears in the cluster.
 

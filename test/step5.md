@@ -1,5 +1,5 @@
 Now, lets do and update in the applicaiton version, by just telling the deployment to use a new image:
-`kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2`{{execute}}
+`kubectl set image deployments/webapp stefanprodan/podinfo:6.0.3`{{execute}}
 
 This will create a new replica set, and update the desired replica count:
 
