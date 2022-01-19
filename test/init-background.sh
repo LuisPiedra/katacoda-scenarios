@@ -28,6 +28,11 @@ helm install dash kubernetes-dashboard/kubernetes-dashboard \
 --set=service.nodePort=30000 \
 --set=service.externalPort=80
 
+# Setup metrics server
+kubectl create namespace metrics-server
+helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
+helm -n metrics-server install metrics-server metrics-server/metrics-server --set 'args={--kubelet-insecure-tls}'
+
 # Katacoda Cloud Provider is used when a LoadBalancer service is requested 
 # by Kubernetes, Katacoda will respond with the IP of the master. This is 
 # how Istio and other LoadBalancer based services can be deployed.
