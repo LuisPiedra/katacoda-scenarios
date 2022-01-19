@@ -11,4 +11,4 @@ Which will destroy old pods and create new ones:
 
 In the same way, we can go back to the previous replicaset:
 
-`kubectl rollout undo deployments/kubernetes-bootcamp`{{execute}}
+`kubectl rollout undo deployments/webapp`{{execute}}

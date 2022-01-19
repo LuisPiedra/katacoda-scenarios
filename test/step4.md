@@ -2,7 +2,7 @@ Now, let's scale the deployment with multiple replicas:
 
 `kubectl get deployments`{{execute}}
 
-`kubectl scale deployments/kubernetes-bootcamp --replicas=3`{{execute}}
+`kubectl scale deployments/webapp --replicas=3`{{execute}}
 
 And now we have four pods running for the application
 
